@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File %~dp0Add_Local_Network_Printer.ps1 -DatFile "DAT-FILE-NAME.dat" -PrinterName "PRINTER-NAME" -PrinterIP "10.10.10.10" -DriverName "SHARP MX-4061S PCL6"
